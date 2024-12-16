@@ -1,0 +1,16 @@
+.calender {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap:1rem;
+  }
+  
+  .day {
+    width: 5rem;
+    height: 5rem;
+    background-color: aquamarine;
+  }
+  
+  .first {
+    grid-column-start: var(--start-day);
+  }
+  

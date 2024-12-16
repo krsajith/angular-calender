@@ -1,0 +1,13 @@
+<div class="calender">
+    @for (day of arr; track $index) {
+        <div class="day"  [class.first]="day===1">{{day}}</div>
+    }
+   
+    
+  </div>
+  
+
+  <button (click)="setDay()">Test</button>
+
+
+  
